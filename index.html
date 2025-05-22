@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="../bootstrap/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="navbar bg-light navbar-expand-md ">
+        <div class="container">
+            <div class="col-md-6 mx-5">
+                <a class="navbar-brand fw-bold" href="#home">Henry</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <h5 class="navbar-toggler-icon"></h5>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse col-md-6" id="navbarSupportedContent">
+            <ul class="navbar-nav me-0 mb-2 mb-md-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#experience">Experiences</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#recent_work">Works</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#price">Products</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#touch">Contact</a>
+                </li>
+                
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home " id="home">
+        <div class=" d-flex flex-column justify-content-center align-items-center m-3" style="height: 90vh;">
+            
+                <img src="./img/man.png" alt="Profile" style="width: 180px; height: 180px;">
+           
+            
+            <h1>Pyi Hein San</h1>
+            <h6>Web Developer</h6>
+            <div class="icon gap-3 mb-3 d-flex">
+                <div class="fs-3">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="fs-3">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="fs-3">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="fs-3">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-danger rounded-pill px-3">Download CV</button>
+            </div>
+        </div>
+
+        <div>
+            <button class="btn"></button>
+        </div>
+
+    </section>
+    <section class="about" id ="about">
+        <div class="container mt-5">
+            <h1>About Me</h1>
+            <div class="row"> 
+                <div class="col-md-4 my-5 text-center">
+                    <img src="./img/man.png" alt="Profile" style="width: 150px; height: 150px;">
+                </div>
+                <div class="col-md-8 my-5">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-6">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nam animi ducimus itaque numquam ipsam consequuntur minus sunt qui! Perspiciatis exercitationem vitae iure odit hic amet quod optio quibusdam dolorum?
+            
+                                    </p>
+                                    <button class="btn btn-danger rounded-pill">Download CV</button>
+                                </div>
+                                <div class="col-6">
+                                    <h6>Development</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-success" style="width: 70%"></div>
+                                    </div>
+                                    <h6>UI/UX Design</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-warning" style="width: 50%"></div>
+                                    </div>
+                                    <h6>Photography</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-danger" style="width: 25%"></div>
+                                    </div>
+                                    <h6>Logical Thinking</h6>
+                                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                        <div class="progress-bar bg-success" style="width: 60%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="row p-3">
+                <div class="container d-flex">
+                    <div class="col-lg-3">
+                        <div class="row">
+                            <div class="col-3 fs-1">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                            </div>
+                            <div class="col-9">
+                                <h5 class="fw-bold">198</h5>
+                                <p class="fw-light">Projects Completeed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="row">
+                            <div class="col-3 fs-1">
+                                <i class="fa-solid fa-mug-hot"></i>
+                            </div>
+                            <div class="col-9">
+                                <h5 class="fw-bold">5670</h5>
+                                <p class="fw-light">Cup of Coffee</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="row">
+                            <div class="col-3 fs-1">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                            <div class="col-9">
+                                <h5 class="fw-bold">427</h5>
+                                <p class="fw-light">Satistied Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="row">
+                            <div class="col-3 fs-1">
+                                <i class="fa-solid fa-award"></i>
+                            </div>
+                            <div class="col-9">
+                                <h5 class="fw-bold">198</h5>
+                                <p class="fw-light">Projects Completeed</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services bg-light py-5" id="services">
+        
+        <div class="container mt-5">
+        <h1> Services</h1>
+        <div class="row mt-5">
+            <div class="col-md-4 mb-3">
+                <div class="card w-80 h-85 bg-primary text-white shadow rounded">
+                    <div class="card-header text-center">
+                        <img src="./img/UI.jpeg" alt="" style="height: 70px; width: 70px;">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title text-center fw-bold">UI/UX Design</div>
+                        <div class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quasi vitae hic aperiam voluptatibus sequi quo, reiciendis veniam officia a, esse eos maxime molestiae quam, iure possimus suscipit eligendi nam.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card shadow-lg rounded h-85 bg-warning text-white">
+                    <div class="card-header text-center">
+                        <img src="./img/web-programming.png" alt="" style="height: 70px; width: 70px;">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title text-center fw-bold">Web Development</div>
+                        <div class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quasi vitae hic aperiam voluptatibus sequi quo, reiciendis veniam officia a, esse eos maxime molestiae quam, iure possimus suscipit eligendi nam.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card w-80 h-85 bg-danger text-white shadow-lg rounded">
+                    <div class="card-header text-center">
+                        <img src="./img/camera.png" alt="" style="height: 70px; width: 70px;">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-title text-center fw-bold">Photography</div>
+                        <div class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quasi vitae hic aperiam voluptatibus sequi quo, reiciendis veniam officia a, esse eos maxime molestiae quam, iure possimus suscipit eligendi nam.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center fw-lighter mt-3">Looking for a custom job? <a href="#" class="text-danger">Click here</a> to contact me!</p>
+            
+        </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        
+        <div class="container mt-5">
+            <h1>Experiences</h1>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <div class="card shadow rounded-3">
+                        <div class="card-body d-flex">
+                            <div class="text-danger">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div class="text-center position-relative" style="height: 180px;"> 
+                                    <span class="border-start position-absolute border-danger" style="height: 180px;"></span>
+                                </div>
+                            </div>
+                            <div class="mx-5">
+                               <p class="fw-lighter">2019 - Present</p>
+                               <h4>Academic Degree</h4>
+                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, inventore harum vero veniam aliquam dolore deserunt temporibus, illo repudiandae nihil saepe, velit nesciunt est. Quibusdam est possimus ipsam quisquam a.</p>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex">
+                            <div class="text-danger">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div class="text-center position-relative" style="height: 180px;"> 
+                                    <span class="border-start position-absolute border-danger" style="height: 180px;"></span>
+                                </div>
+                            </div>
+                            <div class="mx-5">
+                               <p class="fw-lighter">2017 - 2013</p>
+                               <h4>Bachelor's Degree</h4>
+                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, inventore harum vero veniam aliquam dolore deserunt temporibus, illo repudiandae nihil saepe, velit nesciunt est. Quibusdam est possimus ipsam quisquam a.</p>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex">
+                            <div class="text-danger">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div class="text-center position-relative" style="height: 180px;"> 
+                                    <span class="border-start position-absolute border-danger" style="height: 180px;"></span>
+                                </div>
+                            </div>
+                            <div class="mx-5">
+                               <p class="fw-lighter">2013 - 2009</p>
+                               <h4>Honours Degree</h4>
+                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, inventore harum vero veniam aliquam dolore deserunt temporibus, illo repudiandae nihil saepe, velit nesciunt est. Quibusdam est possimus ipsam quisquam a.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                    <div class="card shadow rounded-3">
+                        <div class="card-body d-flex">
+                            <div class="text-danger">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <div class="text-center position-relative" style="height: 180px;"> 
+                                    <span class="border-start position-absolute border-danger" style="height: 180px;"></span>
+                                </div>
+                            </div>
+                            <div class="mx-5">
+                               <p class="fw-lighter">2019 - Present</p>
+                               <h4>Web Designer</h4>
+                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, inventore harum vero veniam aliquam dolore deserunt temporibus, illo repudiandae nihil saepe, velit nesciunt est. Quibusdam est possimus ipsam quisquam a.</p>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex">
+                            <div class="text-danger">
+                                <i class="fa-solid fa-briefcase"></i>
+                                <div class="text-center position-relative" style="height: 180px;"> 
+                                    <span class="border-start position-absolute border-danger" style="height: 180px;"></span>
+                                </div>
+                            </div>
+                            <div class="mx-5">
+                               <p class="fw-lighter">2017 - 2013</p>
+                               <h4>Front-End Developer</h4>
+                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, inventore harum vero veniam aliquam dolore deserunt temporibus, illo repudiandae nihil saepe, velit nesciunt est. Quibusdam est possimus ipsam quisquam a.</p>
+                            </div>
+                        </div>
+                        <div class="card-body d-flex">
+                            <div class="text-danger">
+                               <i class="fa-solid fa-briefcase"></i>
+                               <div class="text-center position-relative" style="height: 180px;"> 
+                                    <span class="border-start position-absolute border-danger" style="height: 180px;"></span>
+                                </div>
+                            </div>
+                            <div class="mx-5">
+                               <p class="fw-lighter">2013 - 2009</p>
+                               <h4>Back-End Developer</h4>
+                               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et, inventore harum vero veniam aliquam dolore deserunt temporibus, illo repudiandae nihil saepe, velit nesciunt est. Quibusdam est possimus ipsam quisquam a.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recent_work bg-light" id="recent_work">
+        
+        <div class="container mt-5 py-5">
+            <h1>Recent Works</h1>
+            <ul class="d-flex gap-3" style="list-style-type: none;">
+                <li class="text-danger">Everything</li>
+                <li>Art</li>
+                <li>Branding</li>
+                <li>Creative</li>
+                <li>Designs</li>
+            </ul>
+            <div class="row mb-3">
+                <div class="col-md-4 mb-3">
+                  <div class="card shadow rounded-3">
+                    <div class="card-body text-center">
+                        <img src="./img/daily-tasks.png" alt="daily" style="height: 150px; width: 150px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow rounded-3">
+                    <div class="card-body text-center">
+                        <img src="./img/podcaster-46.svg" alt="daily" style="height: 150px; width: 150px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow rounded-3">
+                    <div class="card-body text-center">
+                        <img src="./img/polaroid-32.svg" alt="daily" style="height: 150px; width: 150px;">
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow rounded-3">
+                    <div class="card-body text-center">
+                        <img src="./img/startup-19.svg" alt="daily" style="height: 150px; width: 150px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow rounded-3">
+                    <div class="card-body text-center">
+                        <img src="./img/data-processing-51.svg" alt="daily" style="height: 150px; width: 150px;">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow rounded-3">
+                    <div class="card-body text-center">
+                        <img src="./img/team-presentation-3-40.svg" alt="daily" style="height: 150px; width: 150px;">
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-3">
+                <button class="btn btn-danger rounded-pill px-5 py-3"> Load More</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="price" id="price">
+        <div class="container mt-5 py-5" >
+            <h1>Pricing Plans</h1>
+            <div class="row d-flex align-items-center">
+                <div class="col-md-4 card rounded-5 shadow-lg mb-3" style="height: 500px;">
+                    <div class="card-body text-center">
+                            <img src="./img/light-bulb.png" alt="basic" style="height: 100px; width: 100px;">
+                            <div class="card-title">
+                                <h4 class="fw-bold">Basic</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>A simple option but powerful to manage your business</p>
+                                <p>E-mail Support</p>
+                                <p class="fs-6">$<span class="fw-bold fs-3">19</span> <span class="fw-light">Month</span> </p>
+                            </div>
+                            <button class="btn btn-danger px-5 rounded-pill">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-md-4 card rounded-5 shadow-lg mb-3" style="height: 600px;">
+                    <div class="card-body text-center">
+                            <img src="./img/light-bulb.png" alt="basic" style="height: 100px; width: 100px;">
+                            <div class="card-title">
+                                <h4 class="fw-bold">Premium</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>Unlimited products including apps integrations and more features</p>
+                                <p>Mon-Fri support</p>
+                                <p class="fs-6">$<span class="fw-bold fs-3">49</span> <span class="fw-light">Month</span> </p>
+                            </div>
+                            <button class="btn btn-danger px-5 rounded-pill">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-md-4 card rounded-5 shadow-lg mb-3" style="height: 500px;">
+                    <div class="card-body text-center">
+                            <img src="./img/light-bulb.png" alt="basic" style="height: 100px; width: 100px;">
+                            <div class="card-title">
+                                <h4 class="fw-bold">Ultimate</h4>
+                            </div>
+                            <div class="card-text">
+                                <p>A wise option for large companies and individuals</p>
+                                <p>24/7 Support</p>
+                                <p class="fs-6">$<span class="fw-bold fs-3">99</span> <span class="fw-light">Month</span> </p>
+                            </div>
+                            <button class="btn btn-danger px-5 rounded-pill">Get Started</button>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <section class="clients bg-light py-5 " id="clients">
+        <div class="container mt-5 mb-5">
+            <h1>Clients & Reviews</h1>
+        </div>
+        <div class="container d-flex flex-column justify-content-center align-items-center mt-3">
+            <img src="./img/man.png" alt="Profile" style="width: 100px; height: 100px;">
+            <div>
+                <h3>Sunder Pichai</h3>
+                <p class="fw-light text-center">CEO of Alphabet</p>
+            </div>
+            <div class="card rounded-3 shadow p-3 w-50 h-20">
+                <div class="card-body">
+                    <p class="fw-light">I enjoy with this theme. It's clean and elegant. I really like this theme. It's clean and elegant. I really like this theme. It's clean and elegant. I really like this theme.</p>
+                </div>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            </div>
+        </div>
+        <div class="container mt-5  text-center ">
+            <div class="row">
+                <div class="col-sm-3 fs-1 fw-lighter gap-2 opacity-50">
+                    <i class="fa-brands fa-html5"></i>
+                </div>
+                <div class="col-sm-3 fs-1 fw-lighter gap-2 opacity-50">
+                    <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                <div class="col-sm-3 fs-1 fw-lighter gap-2 opacity-50">
+                    <i class="fa-brands fa-bootstrap"></i>
+                </div>
+                <div class="col-sm-3 fs-1 fw-lighter gap-2 opacity-50">
+                    <i class="fa-brands fa-js"></i>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-sm-3 fs-1 fw-lighter gap-2 opacity-50">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="col-sm-3 fs-1 fw-lighter gap-2 opacity-50">
+                    <i class="fa-brands fa-python"></i>
+                </div>
+                <div class="col-sm-3 fs-1 fw-lighter gap-2 opacity-50">
+                    <i class="fa-brands fa-wordpress"></i>
+                </div>
+                <div class="col-sm-3 fs-1 fw-lighter gap-2 opacity-50">
+                    <i class="fa-brands fa-react"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products" id="products">
+        <div class="container mt-5 py-5">
+            <h1>Latest Products</h1>
+            <div class="row mt-5 ">
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow">
+                        <span class="position-absolute top-30 start-45 badge rounded-5 rounded-top-0 bg-danger">
+                            Reviews
+                        </span>
+                        <div class="card-header text-center">
+                            <img src="./img/ux.png"  class="card-img-top" alt="ux" style="width: 180px; height: 180px;">
+                        </div>
+                        <div class="card-body" >
+                            <h6>5 best App Development Tool for Your Project</h6>
+                            <p class="fw-lighter">26 February 2019 <span class="text-danger">Pyi Hein San</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow">
+                        <span class="position-absolute top-30 start-45 badge rounded-5 rounded-top-0 bg-danger">
+                            Tuotorials
+                        </span>
+                        <div class="card-header text-center">
+                             <img src="./img/ux.png" alt="ux" style="width: 180px; height: 180px;">
+                        </div>
+                        <div class="card-body">
+                            <h6>Common Misconceptions About App Development</h6>
+                            <p class="fw-lighter">26 February 2019 <span class="text-danger">Pyi Hein San</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card shadow">
+                        <span class="position-absolute top-30 start-45 badge rounded-5 rounded-top-0 bg-danger">
+                            Business
+                        </span>
+                        <div class="card-header text-center">
+                             <img src="./img/rocket.png" alt="ux" style="width: 180px; height: 180px;">
+                        </div>
+                        <div class="card-body">
+                            <h6>3 things to know about Startup Business</h6>
+                            <p class="fw-lighter">26 February 2019 <span class="text-danger">Pyi Hein San</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="touch bg-light" id="touch">
+        <div class="container mt-5 py-5">
+            <h1>Get In Touch</h1>
+            <div class="row mt-5">
+                <div class="col-md-4" style="background-image: url(./img/world-map-with-flags.png); background-size: cover; opacity: 0.5;">
+                    <p class="fs-3fw-medium">Let's talk about everything!</p>
+                    <p class="fw-lighter">Don't like form? Setn me an <a href="#" class="text-danger">email.</a></p>
+                    
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-6">
+                            <input class="rounded-pill shadow form-control p-3" type="text" name="name" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="col-6 ">
+                            <input class="rounded-pill shadow form-control p-3" type="email" name="mail" id="mail" placeholder="E-mail Address">
+                        </div>
+
+                         <div class="col-12 mt-3">
+                            <input class="rounded-pill shadow form-control p-3" name="subject" id="subject" placeholder="Subject"></input>
+                        </div>
+
+                        <div class="col-12 mt-3">
+                            <textarea class="rounded-3 shadow form-control p-3" name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+
+                        <div class="col mt-3">
+                            <button class="btn btn-danger rounded-pill px-3">Send Message</button>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <footer class="bg-dark  text-white py-4">
+        <div class="container">
+            <p class="text-center m-0">Copyright &copy; 2025 Pyi Hein San</p>
+        </div>
+    </footer>
+    <script src="../bootstrap/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+
